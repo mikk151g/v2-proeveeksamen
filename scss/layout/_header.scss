@@ -1,0 +1,26 @@
+.primary-header {
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+  rgba($color-black, .9),
+  rgba($color-primary-light, .8)),
+  url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__textbox {
+  width: 48vw;
+}
+
+.primary-heading {
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.header__text {
+  color: $color-text-light;
+}
