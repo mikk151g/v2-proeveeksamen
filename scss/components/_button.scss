@@ -10,9 +10,21 @@
     background-color: $color-primary-light;
     color: $color-text-light;
     display: inline-block;
+    transition: background-color 0.4s;
   }
 
   &:hover {
     background-color: $color-primary-dark;
+  }
+
+  &--text,
+  &--text:link,
+  &--text:visited {
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: $color-primary-dark;
+    padding-bottom: .6rem;
+    border-bottom: .1rem solid $color-primary-dark;
   }
 }

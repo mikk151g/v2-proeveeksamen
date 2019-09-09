@@ -1,32 +1,51 @@
-.fixed-scroll {
-  position: fixed;
-  top: 4rem;
-  display: flex;
-  justify-content: space-between;
-  width: 95vw;
-}
-
 .navigation {
-  margin-top: 2.2rem;
-  margin-right: 4rem;
+  position: absolute;
+  display: flex;
+  top: 4rem;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+  &--sticky {
+    -webkit-position: sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: -5rem;
+    background-color: rgba($color-primary-dark, .94);
+    z-index: 1;
+  }
 
   &__list {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    margin-right: 3rem;
   }
 
   &__link,
   &__link:link,
   &__link:visited {
+    display: block;
     text-decoration: none;
     color: $color-text-light;
     font-size: 1.5rem;
-    margin-left: 10rem;
+    padding: 2rem 4rem;
   }
 }
 
 .header__logo {
   width: 7rem;
   height: 7rem;
+  margin-left: 2.5vw;
+}
+
+.sticky__logo {
+  width: 7rem;
+  height: 7rem;
+  margin-left: 2.5rem;
 }

@@ -5,26 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!--STYLING-->
+  <!-- STYLING -->
   <link rel="stylesheet" href="css/style.css">
 
   <title>AspIT | Fokuseret talent til erhvervslivet</title>
 </head>
 <body>
-  <header class="header">
-
-    <div class="fixed-scroll">
+  <header class="header margin-bottom">
+      <!-- NAVIGATION -->
+      <nav class="navigation">
         <img src="../img/logo.png" alt="AspIT logo" class="header__logo">
-        <!--NAVIGATION-->
-        <nav class="navigation">
-            <ul class="navigation__list">
-              <li class="navigation__list-item"><a href="#" class="navigation__link">Om AspIT</a></li>
-              <li class="navigation__list-item"><a href="#" class="navigation__link">Nyheder</a></li>
-              <li class="navigation__list-item"><a href="#" class="navigation__link">Kontakt</a></li>
-            </ul>
-
-          </nav>
-      </div>
+        <ul class="navigation__list">
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Om AspIT</a></li>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Nyheder</a></li>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Kontakt</a></li>
+        </ul>
+      </nav>
 
     <div class="header__textbox">
         <h1 class="header__heading header__text">
@@ -37,6 +33,77 @@
     </div>
   </header>
 
-  
+  <main>
+    <nav class="navigation--sticky">
+      <img src="../img/logo.png" alt="AspIT logo" class="sticky__logo">
+      <ul class="navigation__list">
+        <li class="navigation__list-item"><a href="#" class="navigation__link">Om AspIT</a></li>
+        <li class="navigation__list-item"><a href="#" class="navigation__link">Nyheder</a></li>
+        <li class="navigation__list-item"><a href="#" class="navigation__link">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <section class="section__about margin-bottom">
+      <h1 class="primary-heading">Om AspIT</h1>
+      <div class="row">
+          <div class="col-1-of-3">
+            <div class="img-wrapper">
+                <img src="img/afklaring.jpg" alt="En dreng der læser" class="section__about__p section__about__p-1">
+            </div>
+            <h3 class="secondary-heading secondary-heading--green margin-bottom-small">Afklaring</h3>
+            <p class="section__about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore accusamus consequatur, sint facilis ea laborum quisquam? Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste. Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <p class="section__about__text">
+              Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <a href="#" class="button--text">Se mere &#62;&#62;</a>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="img-wrapper">
+                <img src="img/undervisning.jpg" alt="Undervisning" class="section__about__p section__about__p-2">
+            </div>
+            <h3 class="secondary-heading secondary-heading--green margin-bottom-small">Uddannelsen</h3>
+            <p class="section__about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore accusamus consequatur, sint facilis ea laborum quisquam? Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste. Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <p class="section__about__text">
+              Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <a href="#" class="button--text">Se mere &#62;&#62;</a>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="img-wrapper">
+              <img src="img/arbejde.jpg" alt="Praktik og arbejde" class="section__about__p section__about__p-3">
+            </div>
+            <h3 class="secondary-heading secondary-heading--green margin-bottom-small">Praktik</h3>
+            <p class="section__about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore accusamus consequatur, sint facilis ea laborum quisquam? Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste. Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <p class="section__about__text">
+              Accusantium error ipsam corporis aperiam libero aliquid beatae aspernatur, dicta nam deleniti iste.
+            </p>
+            <a href="#" class="button--text">Se mere &#62;&#62;</a>
+          </div>
+      </div>
+    </section>
+
+    <section class="section__sitesplitter">
+      <div class="sitesplitter__text-box">
+        <p class="sitesplitter__text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perspiciatis ratione, nesciunt voluptas aperiam quisquam minima dolores quae eius odit unde provident veritatis reiciendis eum asperiores eos vitae ab. Iusto?<br/>
+          Officiis doloribus ullam, reprehenderit numquam aliquam voluptates magni nesciunt debitis eum aperiam, quasi voluptatibus reprehenderit numquam aliquam voluptates.
+        </p>
+        <p class="sitesplitter__text">
+          <span>Ole Bay Jensen, Uddanelseschef</span>
+        </p>
+      </div>
+      <div class="sitesplitter__img-wrapper">
+        <img src="img/ole_bay_jensen.jpg" alt="Uddanelseschef" class="section__sitesplitter__img">
+      </div>
+    </section>
+  </main>  
 </body>
 </html>

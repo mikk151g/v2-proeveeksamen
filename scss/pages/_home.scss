@@ -1,0 +1,38 @@
+.img-wrapper {
+  height: 30rem;
+}
+
+.section__about__p {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section__sitesplitter {
+  background-color: $color-primary-dark;
+  color: $color-text-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22rem;
+}
+
+.sitesplitter__text {
+  margin-right: 1rem;
+  text-align: right;
+
+  & span {
+    color: $color-grey;
+  }
+}
+
+.sitesplitter__img {
+  
+  &-wrapper {
+    width: 15rem;
+    height: 14.9rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  }
+}
